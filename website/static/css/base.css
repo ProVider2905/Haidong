@@ -1,0 +1,10 @@
+.box {
+    width: 60px;
+    height: 60px;
+    color: gray; 
+}
+
+h3 {
+    color: rgba(0, 255, 221, 0.781);
+    font-size: 30 px;
+}
