@@ -124,6 +124,10 @@
 
                 <!-- Khung tìm kiếm -->
                 <div class="header-search">
+                    <label for="mobile-search-checkbox" class="header__mobile-search">
+                        <i class="header__mobile-search-icon fas fa-search"></i>
+                    </label>
+
                     <div class="header__logo hide-on-tablet">
                         <a href="/" class="header__logo-link">
                             <svg viewBox="0 0 192 65" class="header__logo-img">
@@ -135,6 +139,8 @@
                             </svg>
                         </a>
                     </div>
+
+                    <input type="checkbox" hidden id="mobile-search-checkbox" class="header__search-checkbox">
 
                     <div class="header__search">
                         <div class="header__search-input-wrap">
@@ -270,8 +276,8 @@
 
         <div class="app__container">
             <div class="grid wide">
-                <div class="grid__row app__content">
-                    <div class="grid__column-2">
+                <div class="row sm-gutter app__content">
+                    <div class="col l-2 m-0 c-0">
                         <nav class="category">
                             <h3 class="category__heading">Danh mục</h3>
             
@@ -289,7 +295,7 @@
                         </nav>
                     </div>
     
-                    <div class="grid__column-10">
+                    <div class="col l-10 m-12 c-12">
                         <div class="home-filter hide-on-mobile-tablet">
                             <span class="home-filter__sort">Sắp xếp theo</span>
                             <button class="home-filter__btn btn">Phổ biến</button>
@@ -326,9 +332,65 @@
                             </div>
                         </div>
 
+                        <nav class="mobile-category">
+                           <ul class="mobile-category__list">
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ câu cá các thể loại</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ câu cá các thể loại</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ câu cá các thể loại</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ câu cá các thể loại</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ câu cá các thể loại</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ câu cá các thể loại</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ câu cá các thể loại</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ câu cá các thể loại</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ câu cá các thể loại</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ câu cá các thể loại</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ câu cá các thể loại</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ câu cá các thể loại</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ câu cá các thể loại</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ câu cá các thể loại</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ câu cá các thể loại</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ câu cá các thể loại</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ câu cá các thể loại</a>
+                                </li>
+                           </ul>
+                        </nav>
+
                         <div class="home-product">
-                            <div class="grid__row">
-                                <div class="grid__column-2-4">
+                            <div class="row sm-gutter">
+                                <div class="col l-2-4 m-4 c-6">
                                     <a href="" class="home-product-item">
                                         <div class="home-product-item__img" style="background-image: url(https://wallpapercave.com/wp/wp2550666.jpg);"></div>
                                         <h4 class="home-product-item__name">Set dưỡng trắng toàn thân tắm là đen thui không bao giờ trắng được</h4>
@@ -370,7 +432,7 @@
                                     </a>
                                 </div>
                                 
-                                <div class="grid__column-2-4">
+                                <div class="col l-2-4 m-4 c-6">
                                     <a href="" class="home-product-item">
                                         <div class="home-product-item__img" style="background-image: url(https://wallpapercave.com/wp/wp2550666.jpg);"></div>
                                         <h4 class="home-product-item__name">Set dưỡng trắng toàn thân tắm là đen thui không bao giờ trắng được</h4>
@@ -411,7 +473,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="grid__column-2-4">
+                                <div class="col l-2-4 m-4 c-6">
                                     <a href="" class="home-product-item">
                                         <div class="home-product-item__img" style="background-image: url(https://wallpapercave.com/wp/wp2550666.jpg);"></div>
                                         <h4 class="home-product-item__name">Set dưỡng trắng toàn thân tắm là đen thui không bao giờ trắng được</h4>
@@ -452,7 +514,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="grid__column-2-4">
+                                <div class="col l-2-4 m-4 c-6">
                                     <a href="" class="home-product-item">
                                         <div class="home-product-item__img" style="background-image: url(https://wallpapercave.com/wp/wp2550666.jpg);"></div>
                                         <h4 class="home-product-item__name">Set dưỡng trắng toàn thân tắm là đen thui không bao giờ trắng được</h4>
@@ -493,7 +555,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="grid__column-2-4">
+                                <div class="col l-2-4 m-4 c-6">
                                     <a href="" class="home-product-item">
                                         <div class="home-product-item__img" style="background-image: url(https://wallpapercave.com/wp/wp2550666.jpg);"></div>
                                         <h4 class="home-product-item__name">Set dưỡng trắng toàn thân tắm là đen thui không bao giờ trắng được</h4>
@@ -534,7 +596,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="grid__column-2-4">
+                                <div class="col l-2-4 m-4 c-6">
                                     <a href="" class="home-product-item">
                                         <div class="home-product-item__img" style="background-image: url(https://wallpapercave.com/wp/wp2550666.jpg);"></div>
                                         <h4 class="home-product-item__name">Set dưỡng trắng toàn thân tắm là đen thui không bao giờ trắng được</h4>
@@ -575,7 +637,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="grid__column-2-4">
+                                <div class="col l-2-4 m-4 c-6">
                                     <a href="" class="home-product-item">
                                         <div class="home-product-item__img" style="background-image: url(https://wallpapercave.com/wp/wp2550666.jpg);"></div>
                                         <h4 class="home-product-item__name">Set dưỡng trắng toàn thân tắm là đen thui không bao giờ trắng được</h4>
@@ -616,7 +678,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="grid__column-2-4">
+                                <div class="col l-2-4 m-4 c-6">
                                     <a href="" class="home-product-item">
                                         <div class="home-product-item__img" style="background-image: url(https://wallpapercave.com/wp/wp2550666.jpg);"></div>
                                         <h4 class="home-product-item__name">Set dưỡng trắng toàn thân tắm là đen thui không bao giờ trắng được</h4>
@@ -657,7 +719,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="grid__column-2-4">
+                                <div class="col l-2-4 m-4 c-6">
                                     <a href="" class="home-product-item">
                                         <div class="home-product-item__img" style="background-image: url(https://wallpapercave.com/wp/wp2550666.jpg);"></div>
                                         <h4 class="home-product-item__name">Set dưỡng trắng toàn thân tắm là đen thui không bao giờ trắng được</h4>
@@ -698,7 +760,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="grid__column-2-4">
+                                <div class="col l-2-4 m-4 c-6">
                                     <a href="" class="home-product-item">
                                         <div class="home-product-item__img" style="background-image: url(https://wallpapercave.com/wp/wp2550666.jpg);"></div>
                                         <h4 class="home-product-item__name">Set dưỡng trắng toàn thân tắm là đen thui không bao giờ trắng được</h4>
@@ -739,7 +801,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="grid__column-2-4">
+                                <div class="col l-2-4 m-4 c-6">
                                     <a href="" class="home-product-item">
                                         <div class="home-product-item__img" style="background-image: url(https://wallpapercave.com/wp/wp2550666.jpg);"></div>
                                         <h4 class="home-product-item__name">Set dưỡng trắng toàn thân tắm là đen thui không bao giờ trắng được</h4>
@@ -832,8 +894,8 @@
 
         <div class="footer">
             <div class="grid wide">
-                <div class="grid__row">
-                    <div class="grid__column-2-4">
+                <div class="row">
+                    <div class="col l-2-4 m-6 c-6">
                         <h3 class="footer__heading">Chăm sóc khách hàng</h3>
                         <ul class="footer-list">
                             <li class="footer-item">
@@ -847,7 +909,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="grid__column-2-4">
+                    <div class="col l-2-4 m-6 c-6">
                         <h3 class="footer__heading">Giới thiệu</h3>
                         <ul class="footer-list">
                             <li class="footer-item">
@@ -861,10 +923,10 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="grid__column-2-4">
+                    <div class="col l-2-4 m-6 c-6">
                         <h3 class="footer__heading">Danh mục</h3>
                     </div>
-                    <div class="grid__column-2-4">
+                    <div class="col l-2-4 m-6 c-6">
                         <h3 class="footer__heading">Theo dõi chúng tôi</h3>
                         <ul class="footer-list">
                             <li class="footer-item">
@@ -881,7 +943,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="grid__column-2-4">
+                    <div class="col l-2-4 m-6 c-6">
                         <h3 class="footer__heading">Vào cửa hàng trên ứng dụng</h3>
                         <div class="footer__download">
                             <img src="http://127.0.0.1:5500/html/assets/img/qr_code.png" alt="Download QR" class="footer__download-qr">
